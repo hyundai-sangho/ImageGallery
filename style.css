@@ -1,0 +1,13 @@
+img {
+  transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1) rotate3d(1, 1, 1, 15deg);
+  border: 3px solid rgb(225, 115, 19);
+  cursor: pointer;
+}
+
+#searchQuery {
+  color: orange;
+}
